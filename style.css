@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Melhora o cálculo de dimensões */
+}
+
+body, html {
+    height: 100%; /* Garante que o body e html ocupem toda a altura da tela */
+    width: 100%; /* Garante que o body e html ocupem toda a largura da tela */
+}
+
+.padding-rx {
+    height: 25%; /* 30% da altura do elemento pai */
+    width: 100%; /* 100% da largura do elemento pai */
+    background-color: #8A05BE;
+}
+.icone{
+    height: 55px; /* 30% da altura do elemento pai */
+    width: 55px;
+    position: relative;
+    left: 18px;
+    top: -140px;
+}
+
+/*Estetica da bolinha do icone*/
+.icone{
+    background-color: #BA4DE3;
+    border-radius: 50px;
+    opacity: 70%;
+}

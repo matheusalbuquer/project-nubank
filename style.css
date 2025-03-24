@@ -1,3 +1,12 @@
+:root {
+    --cor-primaria: #8A19D6;
+    --cor-secundaria:#F6EBFF;
+    --cor-terciaria:#9022D7;
+    --cor-quartiaria: #F0F1F5; /* Definindo a cor primária como branco */
+}
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -7,24 +16,112 @@
 body, html {
     height: 100%; /* Garante que o body e html ocupem toda a altura da tela */
     width: 100%; /* Garante que o body e html ocupem toda a largura da tela */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .padding-rx {
     height: 25%; /* 30% da altura do elemento pai */
     width: 100%; /* 100% da largura do elemento pai */
-    background-color: #8A05BE;
+    background-color: var(--cor-primaria);
 }
-.icone{
+.bolinha-icone{
     height: 55px; /* 30% da altura do elemento pai */
     width: 55px;
     position: relative;
     left: 18px;
     top: -140px;
 }
+.nome-principal{
+    position: relative;
+    top: 30px;
+}
 
 /*Estetica da bolinha do icone*/
-.icone{
+.bolinha-icone{
     background-color: #BA4DE3;
     border-radius: 50px;
     opacity: 70%;
+}
+.nome-cliente{
+    position: relative;
+    left: 18px;
+    top: -130px;
+    color: var(--cor-secundaria);
+}
+
+.icone-usuario{
+    position: relative;
+    top: -217px;
+    height: 25px;
+    left: 33px;
+    width: 23px;
+}
+.icone-email{
+    position: relative;
+    top: -217px;
+    height: 25px;
+    left: 330px;
+    width: 28px;
+}
+.icone-interrogacao{
+    position: relative;
+    top: -217px;
+    height: 25px;
+    left: 255px;
+    width: 25px;
+}
+.icone-olho{
+    position: relative;
+    top: -217px;
+    height: 25px;
+    left: 172px;
+    width: 30px;
+}
+.texto-conta{
+    text-align: left;
+    position: relative;
+    padding: 13px;
+    top: -90px;
+}
+.texto-saldo{
+    text-align: left;
+    position: relative;
+    padding: 13px;
+    top: -100px;
+}
+.circulo-acoes{
+    height: 80px; /* 30% da altura do elemento pai */
+    width: 80px;
+    position: relative;
+    border-radius: 45px;
+    left: 18px;
+    top: -60px;
+    background-color: var(--cor-quartiaria);
+}
+.circulo-acoes1{
+    background-color: var(--cor-quartiaria);
+    height: 80px; /* 30% da altura do elemento pai */
+    width: 80px;
+    position: relative;
+    border-radius: 45px;
+    left: 120px;
+    top: -140px;
+}
+.circulo-acoes2{
+    background-color: var(--cor-quartiaria);
+    height: 80px; /* 30% da altura do elemento pai */
+    width: 80px;
+    position: relative;
+    border-radius: 45px;
+    left: 220px;
+    top: -217px;
+}
+.circulo-acoes3{
+    background-color: var(--cor-quartiaria);
+    height: 80px; /* 30% da altura do elemento pai */
+    width: 80px;
+    position: relative;
+    border-radius: 45px;
+    left: 317px;
+    top: -294px;
 }

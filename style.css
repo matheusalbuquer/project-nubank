@@ -125,3 +125,14 @@ body, html {
     left: 317px;
     top: -294px;
 }
+
+/*Area de tranferencia*/
+
+.icone-area-pix {
+    display: block;
+    height: 30px; /* 30% da altura do elemento pai */
+    width: 30px;
+    position: relative;
+    top: 22px;
+    left: 25px;
+}

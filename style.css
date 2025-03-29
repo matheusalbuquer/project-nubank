@@ -136,3 +136,30 @@ body, html {
     top: 22px;
     left: 25px;
 }
+
+.icone-pagar{
+    display: block;
+    height: 28px; /* 30% da altura do elemento pai */
+    width: 28px;
+    position: relative;
+    top: 24px;
+    left: 25px;
+}
+
+.icone-transferir{
+    display: block;
+    height: 32px; /* 30% da altura do elemento pai */
+    width: 33px;
+    position: relative;
+    top: 22px;
+    left: 24px;
+}
+
+.icone-deposito{
+    display: block;
+    height: 32px; /* 30% da altura do elemento pai */
+    width: 33px;
+    position: relative;
+    top: 22px;
+    left: 24px;
+}

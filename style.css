@@ -89,6 +89,8 @@ body, html {
     padding: 13px;
     top: -100px;
 }
+
+/*Circulos de formas de pagamentos*/
 .circulo-acoes{
     height: 80px; /* 30% da altura do elemento pai */
     width: 80px;
@@ -162,4 +164,30 @@ body, html {
     position: relative;
     top: 22px;
     left: 24px;
+}
+
+/*Meus cartoes*/
+.meus-cartoes{
+    height: 60px;
+    width: 400px;
+    position: relative;
+    top: -260px;
+    left: 5px;
+    h4{
+        position: relative;
+        left: 50px;
+        top: 15px;
+    }
+}
+
+.meus-cartoes{
+   background-color: var(--cor-secundaria);
+   border-radius: 28px;
+
+}
+.icone-meus-cartoes{
+    height: 30px;
+    position: relative;
+    left: 10px;
+    top: -20px;
 }

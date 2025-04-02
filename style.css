@@ -182,7 +182,7 @@ body, html {
 
 .meus-cartoes{
    background-color: var(--cor-secundaria);
-   border-radius: 998px;
+   border-radius: 28px;
 
 }
 .icone-meus-cartoes{
@@ -190,4 +190,22 @@ body, html {
     position: relative;
     left: 10px;
     top: -20px;
+}
+/* texto de infomacoes*/
+
+.texto-informacoes{
+    height: 100px;
+    width: 400px;
+    position: relative;
+    top: -200px;
+    left: 5px;
+    h4{
+        position: relative;
+        left: 50px;
+        top: 15px;
+    }
+}
+.texto-informacoes{
+    background-color: var(--cor-secundaria);
+    border-radius: 28px;
 }

@@ -230,5 +230,33 @@ body, html {
     background-color: var(--cor-secundaria);
 }
 
+.cartao-credito{
+    position: relative;
+    top: -170px;
+    left: 20px;
+    img{
+        position: relative;
+        left: 5px;
+        height: 30px;
+        width: 24px;
+    }
+    h2{
+        position: relative;
+        top: 10px;
+    }
+    h4{
+        position: relative;
+        top: 15px;    
+    }
+    button{ 
+        position: relative;
+        top: 15px;   
+        background-color: var(--cor-primaria);
+        height: 50px;
+        width: 200px;
+        border-radius: 15px;
+    }
+}
+
 
 

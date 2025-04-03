@@ -206,8 +206,24 @@ body, html {
     }
 }
 .texto-informacoes{
+    position: relative;
+    top: -230px;
     background-color: var(--cor-secundaria);
     border-radius: 28px;
+    a{
+        color: var(--cor-primaria);
+        text-decoration: none;   
+    }
+    h4{
+        position: relative;
+        left: 20px;
+        top: 20px;
+    }
+}
+.linha{
+    width: 2px;
+    height: 300px;
+    background-color: var(--cor-secundaria);
 }
 
 .meus-cartoes{
@@ -216,8 +232,3 @@ body, html {
     }
 }
 
-.linha{
-    width: 2px;
-    height: 300px;
-    background-color: var(--cor-secundaria);
-}

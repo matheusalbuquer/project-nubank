@@ -276,5 +276,46 @@ body, html {
     position: relative;
     top: -100px;
 }
+.descubra-mais{
+    h3{
+        position: relative;
+        top: -80px;
+        left: 10px;
+    }
+    img{
+        
+    }
+    img{
+        position: relative;
+        width: 470px;
+        height: 250px;
+        border-radius: 18px;
+    }
+  .img{
+    position: relative;
+    top: -50px;
+    left: 10px;
+    height: 370px;
+    width: 470px;
+   
+  }
+  .img{
+    border-radius: 18px;
+    background-color: var(--cor-secundaria);
 
-
+    h2{
+        position: relative;
+        top: 15px;   
+        left: 10px;
+    }
+    p{
+        color: rgba(133, 133, 127, 0.856);
+        font-size: 20px;
+    }
+    p{
+        position: relative;
+        top: 15px;
+        left: 10px;
+    }
+  }
+}

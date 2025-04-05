@@ -267,5 +267,14 @@ body, html {
     
 }
 
+.linha-secundaria{
+    width: 500px;
+    height: 5px;
+    background-color: var(--cor-secundaria);
+}
+.linha-secundaria{
+    position: relative;
+    top: -100px;
+}
 
 

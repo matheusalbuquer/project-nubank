@@ -1,321 +1,241 @@
 :root {
     --cor-primaria: #8A19D6;
-    --cor-secundaria:#F6EBFF;
-    --cor-terciaria:#9022D7;
-    --cor-quartiaria: #F0F1F5; /* Definindo a cor primária como branco */
+    --cor-secundaria: #F6EBFF;
+    --cor-terciaria: #9022D7;
+    --cor-quartiaria: #F0F1F5;
 }
-
-
 
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box; /* Melhora o cálculo de dimensões */
+    box-sizing: border-box;
 }
 
 body, html {
-    height: 100%; /* Garante que o body e html ocupem toda a altura da tela */
-    width: 100%; /* Garante que o body e html ocupem toda a largura da tela */
+    height: 100%;
+    width: 100%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .padding-rx {
-    height: 25%; /* 30% da altura do elemento pai */
-    width: 100%; /* 100% da largura do elemento pai */
+    height: 25%;
+    width: 100%;
     background-color: var(--cor-primaria);
 }
-.bolinha-icone{
-    height: 55px; /* 30% da altura do elemento pai */
+
+.bolinha-icone {
+    height: 55px;
     width: 55px;
     position: relative;
     left: 18px;
     top: -140px;
-}
-.nome-principal{
-    position: relative;
-    top: 30px;
-}
-
-/*Estetica da bolinha do icone*/
-.bolinha-icone{
     background-color: #BA4DE3;
     border-radius: 50px;
     opacity: 70%;
 }
-.nome-cliente{
+
+.nome-principal {
+    position: relative;
+    top: 30px;
+}
+
+.nome-cliente {
     position: relative;
     left: 18px;
     top: -130px;
     color: var(--cor-secundaria);
 }
 
-.icone-usuario{
+/* Ícones */
+.icone-usuario,
+.icone-email,
+.icone-interrogacao,
+.icone-olho {
     position: relative;
     top: -217px;
     height: 25px;
-    left: 33px;
-    width: 23px;
 }
-.icone-email{
-    position: relative;
-    top: -217px;
-    height: 25px;
-    left: 330px;
-    width: 28px;
-}
-.icone-interrogacao{
-    position: relative;
-    top: -217px;
-    height: 25px;
-    left: 255px;
-    width: 25px;
-}
-.icone-olho{
-    position: relative;
-    top: -217px;
-    height: 25px;
-    left: 172px;
-    width: 30px;
-}
-.texto-conta{
+
+.icone-usuario { left: 33px; width: 23px; }
+.icone-olho    { left: 172px; width: 30px; }
+.icone-interrogacao { left: 255px; width: 25px; }
+.icone-email   { left: 330px; width: 28px; }
+
+.texto-conta,
+.texto-saldo {
     text-align: left;
     position: relative;
     padding: 13px;
-    top: -90px;
-}
-.texto-saldo{
-    text-align: left;
-    position: relative;
-    padding: 13px;
-    top: -100px;
 }
 
-/*Circulos de formas de pagamentos*/
-.circulo-acoes{
-    height: 80px; /* 30% da altura do elemento pai */
+.texto-conta { top: -90px; }
+.texto-saldo { top: -100px; }
+
+/* Círculos das ações */
+.circulo-acoes,
+.circulo-acoes1,
+.circulo-acoes2,
+.circulo-acoes3 {
+    height: 80px;
     width: 80px;
-    position: relative;
     border-radius: 45px;
-    left: 18px;
-    top: -60px;
-    background-color: var(--cor-quartiaria);
-}
-.circulo-acoes1{
-    background-color: var(--cor-quartiaria);
-    height: 80px; /* 30% da altura do elemento pai */
-    width: 80px;
     position: relative;
-    border-radius: 45px;
-    left: 120px;
-    top: -140px;
-}
-.circulo-acoes2{
     background-color: var(--cor-quartiaria);
-    height: 80px; /* 30% da altura do elemento pai */
-    width: 80px;
-    position: relative;
-    border-radius: 45px;
-    left: 220px;
-    top: -217px;
-}
-.circulo-acoes3{
-    background-color: var(--cor-quartiaria);
-    height: 80px; /* 30% da altura do elemento pai */
-    width: 80px;
-    position: relative;
-    border-radius: 45px;
-    left: 317px;
-    top: -294px;
 }
 
-/*Area de tranferencia*/
+.circulo-acoes  { left: 18px;  top: -60px; }
+.circulo-acoes1 { left: 120px; top: -140px; }
+.circulo-acoes2 { left: 220px; top: -217px; }
+.circulo-acoes3 { left: 317px; top: -294px; }
 
-.icone-area-pix {
+/* Ícones das ações */
+.icone-area-pix,
+.icone-pagar,
+.icone-transferir,
+.icone-deposito {
     display: block;
-    height: 30px; /* 30% da altura do elemento pai */
-    width: 30px;
     position: relative;
     top: 22px;
     left: 25px;
 }
 
-.icone-pagar{
-    display: block;
-    height: 28px; /* 30% da altura do elemento pai */
-    width: 28px;
-    position: relative;
-    top: 24px;
-    left: 25px;
-}
+.icone-area-pix     { width: 30px; height: 30px; }
+.icone-pagar        { width: 28px; height: 28px; top: 24px; }
+.icone-transferir   { width: 33px; height: 32px; }
+.icone-deposito     { width: 33px; height: 32px; }
 
-.icone-transferir{
-    display: block;
-    height: 32px; /* 30% da altura do elemento pai */
-    width: 33px;
-    position: relative;
-    top: 22px;
-    left: 24px;
-}
-
-.icone-deposito{
-    display: block;
-    height: 32px; /* 30% da altura do elemento pai */
-    width: 33px;
-    position: relative;
-    top: 22px;
-    left: 24px;
-}
-
-/*Meus cartoes*/
-.meus-cartoes{
+/* Meus cartões */
+.meus-cartoes {
     height: 60px;
     width: 400px;
     position: relative;
     top: -260px;
     left: 5px;
-    h4{
-        position: relative;
-        left: 50px;
-        top: 15px;
-    }
+    background-color: var(--cor-secundaria);
+    border-radius: 28px;
 }
 
-.meus-cartoes{
-   background-color: var(--cor-secundaria);
-   border-radius: 28px;
-
+.meus-cartoes h4 {
+    position: relative;
+    left: 50px;
+    top: 15px;
 }
-.icone-meus-cartoes{
+
+.icone-meus-cartoes {
     height: 30px;
     position: relative;
     left: 10px;
     top: -20px;
 }
-/* texto de infomacoes*/
 
-.texto-informacoes{
+/* Informações */
+.texto-informacoes {
     height: 100px;
     width: 400px;
     position: relative;
-    top: -200px;
-    left: 5px;
-    h4{
-        position: relative;
-        left: 50px;
-        top: 15px;
-    }
-}
-.texto-informacoes{
-    position: relative;
     top: -230px;
+    left: 5px;
     background-color: var(--cor-secundaria);
     border-radius: 28px;
-    a{
-        color: var(--cor-primaria);
-        text-decoration: none;   
-    }
-    h4{
-        position: relative;
-        left: 20px;
-        top: 20px;
-    }
 }
-.linha{
+
+.texto-informacoes h4 {
     position: relative;
-    top: -200px;
+    left: 20px;
+    top: 20px;
 }
-.linha{
+
+.texto-informacoes a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+}
+
+/* Linhas */
+.linha,
+.linha-secundaria {
     width: 500px;
     height: 5px;
     background-color: var(--cor-secundaria);
+    position: relative;
 }
 
-.cartao-credito{
+.linha { top: -200px; }
+.linha-secundaria { top: -100px; }
+
+/* Cartão de crédito */
+.cartao-credito {
     position: relative;
     top: -170px;
     left: 20px;
-    img{
-        position: relative;
-        left: 5px;
-        height: 30px;
-        width: 24px;
-    }
-    h2{
-        position: relative;
-        top: 10px;
-    }
-    h4{
-        position: relative;
-        top: 15px;    
-    }
-
-    .pedir-cartao{
-        position: relative;
-        top: 40px;
-        background-color: var(--cor-primaria);
-        width: 200px;
-        height: 50px;
-        border-radius: 20px;
-        
-    }
-    h3{
-        color: var(--cor-secundaria);
-        position: relative;
-        top: 10px;
-        left: 30px;
-    }
-    
 }
 
-.linha-secundaria{
-    width: 500px;
-    height: 5px;
-    background-color: var(--cor-secundaria);
-}
-.linha-secundaria{
+.cartao-credito img {
     position: relative;
-    top: -100px;
+    left: 5px;
+    height: 30px;
+    width: 24px;
 }
-.descubra-mais{
-    h3{
-        position: relative;
-        top: -80px;
-        left: 10px;
-    }
-    img{
-        
-    }
-    img{
-        position: relative;
-        width: 470px;
-        height: 250px;
-        border-radius: 18px;
-    }
-  .img{
+
+.cartao-credito h2 {
+    position: relative;
+    top: 10px;
+}
+
+.cartao-credito h4 {
+    position: relative;
+    top: 15px;
+}
+
+.pedir-cartao {
+    position: relative;
+    top: 40px;
+    background-color: var(--cor-primaria);
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.pedir-cartao h3 {
+    color: var(--cor-secundaria);
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+/* Descubra mais */
+.descubra-mais h3 {
+    position: relative;
+    top: -80px;
+    left: 10px;
+}
+
+.descubra-mais img {
+    position: relative;
+    width: 470px;
+    height: 250px;
+    border-radius: 18px;
+}
+
+.descubra-mais .img {
     position: relative;
     top: -50px;
     left: 10px;
     height: 370px;
     width: 470px;
-   
-  }
-  .img{
-    border-radius: 18px;
     background-color: var(--cor-secundaria);
+    border-radius: 18px;
+}
 
-    h2{
-        position: relative;
-        top: 15px;   
-        left: 10px;
-    }
-    p{
-        color: rgba(133, 133, 127, 0.856);
-        font-size: 20px;
-    }
-    p{
-        position: relative;
-        top: 15px;
-        left: 10px;
-    }
-  }
+.descubra-mais .img h2 {
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+
+.descubra-mais .img p {
+    position: relative;
+    top: 15px;
+    left: 10px;
+    color: rgba(133, 133, 127, 0.856);
+    font-size: 20px;
 }
